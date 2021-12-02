@@ -76,7 +76,7 @@ img {
   display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 737px) {
   .navbar-wrapper {
     max-width: 1170px;
     margin: 0 auto;
@@ -108,5 +108,10 @@ img {
   .navbar-wrapper .social-links a {
     padding: 0 0.8rem 0 0;
     font-size: 1.2rem;
+  }
+  [class^="fa"] {
+    color: #0f57c2ce;
+    display: flex;
+    align-items: center;
   }
 }
