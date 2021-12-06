@@ -37,6 +37,11 @@ img {
 
 [class^="fa"] {
   color: #0f57c2ce;
+  transition: color 0.3s;
+}
+
+[class^="fa"]:hover {
+  color: #b6d2fc;
 }
 
 .navbar {
@@ -52,14 +57,14 @@ img {
 .navbar a {
   padding: 1rem 1rem 1rem 0;
   text-decoration: none;
-  color: #324d67;
+  color: #49a6e9;
   font-size: 1.3rem;
   letter-spacing: 5px;
   transition: color 0.3s;
 }
 
 .navbar a:hover {
-  color: #49a6e9;
+  color: #b6d2fc;
 }
 
 .nav-links {
